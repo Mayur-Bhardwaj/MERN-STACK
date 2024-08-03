@@ -17,3 +17,8 @@
 const s1 = "Hello World";
 const s2 = "New World";
 console.log(s1 + " " +s2);    //Output:- Hello World New World
+
+const string1 = "Mayur";
+
+console.log(string1.toUpperCase());     //Output:- MAYUR
+console.log(string1.toLowerCase());     //Output:- mayur
