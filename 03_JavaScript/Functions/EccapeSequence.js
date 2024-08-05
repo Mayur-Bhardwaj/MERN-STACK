@@ -22,3 +22,16 @@ const string1 = "Mayur";
 
 console.log(string1.toUpperCase());     //Output:- MAYUR
 console.log(string1.toLowerCase());     //Output:- mayur
+
+//Add the string in one line
+
+let str1 = "abc";
+let str2 = "def";
+let str3 = "ghi";
+
+// let result = str1+str2+ str3;
+// console.log(result);    //Output:- abcdefghi
+
+let result ="";
+result = str1+str2+ str3;
+console.log(result);    //Output:- abcdefghi
