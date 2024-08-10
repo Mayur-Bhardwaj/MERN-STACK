@@ -13,3 +13,5 @@ if(x<y && x<z){
 } else{
     console.log("The Third Number is Smaller.");
 }
+
+//Output:- The Third Number is Smaller.
