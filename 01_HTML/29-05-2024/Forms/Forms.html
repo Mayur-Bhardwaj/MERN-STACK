@@ -17,11 +17,22 @@ An HTML form is used to collect user input. The user input is most often sent to
       <input type="email" name="email" /> <br /><br />
       <label for="password">Password: </label>
       <input type="password" name="password" /> <br /><br />
-      <input type="submit" value="submit" />
+      <input type="submit" value="submit" /> <br> <br>
       <!-- This is implicit label -->
       <!-- <label>
         <input type="text" />
       </label> -->
+      <label for="Gender">Gender: </label><br> <br>
+      <input type="radio" name="Gender" value="male">
+      <label for="male">Male</label>
+
+      <!-- Here Value means : The response will go like in backend
+      {Gender: male} 
+      Name ek tarah se Key banta hai JSON response ka. 
+      -->
+
+      <input type="radio" name="Gender" value="female">
+      <label for="female">Female</label>
     </form>
   </body>
 </html>
