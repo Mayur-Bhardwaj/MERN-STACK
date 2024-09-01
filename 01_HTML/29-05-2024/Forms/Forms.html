@@ -2,22 +2,26 @@
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
  -->
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
- </head>
- <body>
+  </head>
+  <body>
     <h1>Forms</h1>
-    <form>
-        <label action="/login">Email: </label> 
-        <input type="email" name="email"> <br><br>
-        <label for="password">Password: </label>
-        <input type="password" name="password">  <br><br>
-        <input type="submit" value="submit">
-
+    <form action="/login">
+      <!--This is called explicit label.  -->
+      <label action="/login">Email: </label>
+      <input type="email" name="email" /> <br /><br />
+      <label for="password">Password: </label>
+      <input type="password" name="password" /> <br /><br />
+      <input type="submit" value="submit" />
+      <!-- This is implicit label -->
+      <!-- <label>
+        <input type="text" />
+      </label> -->
     </form>
- </body>
- </html>
+  </body>
+</html>
