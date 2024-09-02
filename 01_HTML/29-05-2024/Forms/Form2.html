@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Method: The method attribute is used to define the HTTP methods.
+      It is used when the form is submitted.
+      Basically there are two possible ways to do it :-  1.GET  2.POST 
+      In GET Request basically we get the resource from the server.
+      In POST Request means we update the resource on the server.-->
+    <form method="get" action="/login">
+     
+      <!-- Below Both Buttons are same  -->
+
+      <!-- <input type="submit" name="submit" ><br><br>
+      <button >Click Me</button> -->
+
+      <label for="language">Languages: </label>
+      <select name="language" id="language">
+        <option value="c">C</option>
+        <option value="c++">C++</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <input type="submit" value="Submit">
+      </select>
+      <br><br>
+      <label for="framework">Frameworks: </label>
+      <select name="framework" id="framework">
+        <option value="laravel">Laravel</option>
+        <option value="reaactjs" selected>React JS</option>
+        <option value="django">DJango</option>
+        <option value="springboot">SpringBoot</option>
+      </select> <br><br>
+      <button type="button">Click Me</button> <br><br>
+
+
+      <!-- If we want that when we click on button then there some action perform then we define action for this. -->
+    
+    <label for="fruit">Choose a Fruit: </label>
+    <select name="fruit" id="fruit">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="orange" selected>Orange</option> <!-- If we wanted that orange will shown first in the dropdown so user "Selected" -->
+      <option value="grapes">Grapes</option>
+      <option value="pine-apple">Pine Apple</option>
+      <option value="dates">Dates</option>
+
+    </select>
+
+    <!-- On output shown like :   https://www.abcd.in/submit?fruit=banana 
+     
+    {
+      "fruit": "banana",
+    }
+      
+    If send multiple fruits then,
+    {
+      "fruit": ["banana", orange],
+    }
+    -->
+  </form>
+</body>
+</html>
