@@ -12,11 +12,11 @@
     <fieldset>
       <legend style="color: blue;">Personal Information</legend>
       <label> First Name: </label>
-      <input type="text" name="Name" placeholder="Enter your FName" />
+      <input type="text" name="Name" placeholder="Enter your FName" required/>
       <br /><br />
 
       <label> Last Name: </label>
-      <input type="text" name="Name" placeholder="Enter your LName" />
+      <input type="text" name="Name" placeholder="Enter your LName" required />
       <br /><br />
 
       <label> Date Of Birth: </label>
@@ -28,35 +28,35 @@
       <input type="radio" name="Others" />Others <br /><br />
 
       <label for="E-mail">Email: </label>
-      <input type="email" name="E-mail" placeholder="Enter your e-mail" />
+      <input type="email" name="E-mail" placeholder="Enter your e-mail" required  />
       <br /><br />
       <label for="E-mail">Phone No. : </label>
       <input
         type="number"
         name="E-mail"
-        placeholder="Enter your contact number"
+        placeholder="Enter your contact number" required 
       /><br /><br />
     </fieldset>
     <hr />
     <fieldset>
       <legend style="color: lightcoral;">Adddress Information</legend>
       <p>Address:</p>
-      <textarea name="Adddress" placeholder="Enter Your Address"></textarea
+      <textarea name="Adddress" placeholder="Enter Your Address" required ></textarea
       ><br /><br />
 
       <label for="text">City: </label>
-      <input type="text" name="city" placeholder="Enter your city name" />
+      <input type="text" name="city" placeholder="Enter your city name" required />
       <br /><br />
 
       <label for="State">State: </label>
-      <input type="text" name="state" placeholder="Enter your state name" />
+      <input type="text" name="state" placeholder="Enter your state name" required  />
       <br /><br />
 
       <label for="zipcode">ZipCode: </label>
       <input
         type="number"
         name="zipcode"
-        placeholder="Enter your zipcode here"
+        placeholder="Enter your zipcode here" required 
       />
       <br /><br />
     </fieldset>
@@ -64,18 +64,18 @@
     <fieldset>
       <legend style="color: blueviolet;">Education Information</legend>
       <label>High School:</label>
-      <input type="text" /><br /><br />
+      <input type="text" required /><br /><br />
 
       <label for="text">CGPA: </label>
-      <input type="number" /> <br /><br />
+      <input type="number" required /> <br /><br />
 
       <label>Senior Secondary School:</label>
-      <input type="text" /><br /><br />
+      <input type="text" required /><br /><br />
       <label for="text">CGPA: </label>
-      <input type="number" /> <br /><br />
+      <input type="number" required/> <br /><br />
 
       <label>Year Of Graduation: </label>
-      <input type="text" />
+      <input type="text" required />
     </fieldset>
     <hr />
     <fieldset>
@@ -83,7 +83,7 @@
       <label>Interest & Hobbies: </label> <br>
       <textarea ></textarea> <br><br>
       <label>Additional Comments: </label> <br>
-      <textarea ></textarea>
+      <textarea required></textarea>
     </fieldset><br>
     <hr>
     <input type="button" value="Register">
