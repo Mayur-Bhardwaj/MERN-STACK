@@ -1,0 +1,16 @@
+1. Inheritance:- When you pass the style from the parent element to child-parent to the child element.
+                 They allow the child to inherit the parent element properties.It requires to know classes and Id.
+
+2. Rule Order:- The property allpied on last that property will be applied on our element (p,div,etc).
+
+Selectors:- A CSS selector selects the HTML element(s) you want to style.
+
+selector{
+    property1: value1;
+    property2: value2;
+}
+
+Ex;-  p {
+  text-align: center;
+  color: red;
+}
