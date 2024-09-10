@@ -64,3 +64,15 @@ p {
   text-align: center;
   color: red;
 }
+
+Universal Selector has the lowest specificity but applies to all the elements initially.
+Class Selector has the higher specificity than the universal selector.
+Id Selector has the higher specificity than the class selector.
+
+//Order
+
+id > class > universal
+or 
+id > class1 > class2 > universal
+
+If we apply element selector, id selector, class selector then the hifh preference will be of "id". 

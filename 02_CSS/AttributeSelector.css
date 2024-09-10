@@ -1,0 +1,11 @@
+/* Attribute Selector Example */
+
+p[class]{
+    background-color: orange;
+}
+
+p[class="fourth"]{
+    color: khaki;
+}
+
+/* syntax:-  Element[attribute]    This concept is also applicable for the "id". */
