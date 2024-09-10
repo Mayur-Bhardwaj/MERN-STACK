@@ -1,0 +1,9 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+h1{
+    font-size: 20px;
+     font-style: italic; /*ALso used oblique. It is similar to the italic */
+     font-variant: small-caps; /*This is used to describe the text in uppercase letter.*/
+}
