@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+
+        /* Universal Selector */
+
+        *{
+            color: black;
+        }
+        p{
+            background-color: yellow;
+        }
+
+        /* Id Selector */
+
+        #second-para{
+            color: darkslateblue;
+        }
+        
+        /* Class Selector */
+
+        .third-para{
+            color: blue;
+            
+        }
+        .third-para2{
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <p>This is our first Paragraph.</p>
+    <p id="second-para">Here in this document we learn about Id and Classes.</p>
+    <p class="third-para">The Id and the Class called the Selectors.</p>
+
+    <!-- We can  use multiple classes in same element but can't use the multiple Id in same element  -->
+
+    <p class="third-para third-para2">It is the example of Class Selectors.</p>
+
+        <!-- In a text the id and class both used -->
+
+    <p id="second-para" class="third-para2">Example of use both id and classes</p>
+    
+</body>
+</html>
