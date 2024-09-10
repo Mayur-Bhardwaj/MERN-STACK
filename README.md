@@ -4,4 +4,4 @@
 3. Tailwind CSS
 4. JAVASCRIPT
 5. React Js
-Projects
+6. Projects
