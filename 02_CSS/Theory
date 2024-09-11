@@ -47,7 +47,9 @@ Ex:- * {
   color: blue;
 }
 
-5. Attribute Selector
+5. Attribute Selector:- It is possible to style HTML elements that have specific attributes or attribute values.
+
+
 6. Group Selector:- The grouping selector selects all the HTML elements with the same style definitions.
 Ex:- 
 h1 {
@@ -75,4 +77,24 @@ id > class > universal
 or 
 id > class1 > class2 > universal
 
-If we apply element selector, id selector, class selector then the hifh preference will be of "id". 
+If we apply element selector, id selector, class selector then the high preference will be of "id". 
+
+If in a file we apply the css on p tag.And then we apply css on same element by external css.Then which one apply. The id will be applied on the paragraph. Due to the higher specificity of id, the id will applied on the paragraph.
+
+First apply the concept of id, class selector after that come internal and external.
+
+Ex:- <p id="para"> This is our example.</p>
+<style>
+  p{
+    color:red;
+  }
+  </style>
+
+  index.css
+  #para{
+    color: blue;
+  }
+
+p.class --> Target p element with a specific class name "class".
+
+p[class] --> Target p element with any class attribute.
