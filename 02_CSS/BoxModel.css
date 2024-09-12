@@ -1,0 +1,27 @@
+/* 1. Why do we need box model ?
+
+Ans:- Helps in calculation of  dimension and spacing of html element.
+Box Model treats every HTML element as a rectangular box.
+To make the rectangle 4 points needed:-
+
+1. Content
+2. Padding
+3. Margin
+4. Border.
+
+Content :- It is the actual text or the data to be displayed.
+
+Border:- A line to surround our content.
+Padding:- A transparent space between border and content.
+MArgib:- Space outside the body.
+
+Ex:- Chips packet, the chips packet called "Border", inside the chips packet chips called "Content". Margin is outside the border, 
+2 chips ke packet ke beech mai jitna distance hai called margin.
+Between the content and the border the layer is present called a Padding.
+*/
+
+p{
+    border: 1px solid red;
+    padding: 15px;
+    margin: 50px;
+}
