@@ -4,3 +4,17 @@ Scopes:-    The scope is the current context of execution in which values and ex
 Global scope:     The default scope for all code running in script mode.
 Module scope:     The scope for code running in module mode.
 Function scope:   The scope created with a function.
+
+Compiled programming Language:
+
+Compiled programming languages are those in which the source code is compiled into machine code before it is executed. 
+Some examples of compiled programming languages include C, C++, Java, and Swift.
+When you write code in a compiled language, you typically use an integrated development environment (IDE) to write and edit the code.
+The IDE will typically have a built-in compiler that can generate the executable file from the source code.
+
+Interpreted Programming Languages:
+
+Interpreted programming languages, on the other hand, are those in which the source code is executed directly by an interpreter, without being compiled into machine code first. 
+The interpreter reads the source code line by line and executes each line as it is read. 
+The interpreter is responsible for translating the source code into machine code at runtime.
+Some examples of interpreted programming languages include Python, Ruby, and JavaScript.
