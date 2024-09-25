@@ -38,3 +38,11 @@ Object.entries(product);
 // 4: (2) ['specification', '4 128']
 // 5: (2) ['color', 'Black']
 // length: 6 [[Prototype]]: Array(0)
+
+//How we check the number of key value pair in the object?
+
+// We can use the above method. Let's say we use Object.keys, it will return an array with all the unique 
+// keys, and the length of the array can be our answer.
+// Because all the keys are unique, we have entry of each unique key in the response array, so lenfth of 
+// the array will be denoting the number of key value pairs.
+// Ex:- Object.keys(product).length;
