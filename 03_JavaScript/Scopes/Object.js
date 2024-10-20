@@ -21,7 +21,7 @@ Object.values(product);
 // (6) ['name', 'company', 'price', 'warrenty', 'specification', 'color']
 
 //To Fetch the Values of the Object
-//Output:- (6) ['Realme C25y', 'Oppo', 11500, '! year', '4 128', 'Black']
+//Output:- (6) ['Realme C25y', 'Oppo', 11500, '1 year', '4 128', 'Black'];
 
 // If we want that, we need to fetch all the availabe (values can be non unique of our object, then we can
 // use the inbuilt method "Object.values".
@@ -34,7 +34,7 @@ Object.entries(product);
 // 0: (2) ['name', 'Realme C25y']
 // 1: (2) ['company', 'Oppo']
 // 2: (2) ['price', 11500]
-// 3: (2) ['warrenty', '! year']
+// 3: (2) ['warrenty', '1 year']
 // 4: (2) ['specification', '4 128']
 // 5: (2) ['color', 'Black']
 // length: 6 [[Prototype]]: Array(0)
