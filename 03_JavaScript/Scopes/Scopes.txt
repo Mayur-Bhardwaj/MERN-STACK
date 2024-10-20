@@ -18,23 +18,29 @@ Interpreted programming languages, on the other hand, are those in which the sou
 The interpreter reads the source code line by line and executes each line as it is read. 
 The interpreter is responsible for translating the source code into machine code at runtime.
 Some examples of interpreted programming languages include Python, Ruby, and JavaScript.
+Pure interpreted language exist called "Bash Script". means which are written inside the terminal which are
+pure interpreted languages.These are those language which are execute our code directly, without reading/analysing
+whole code prior.
 
-
-function fun(){
+1. function fun(){
     let r = iuo;
 }
 console.log("Wow Wow");
 
 //Output:- Unexpected identifier 'r'
 
-console.log("Wow Wow");
+2. console.log("Wow Wow");
 function fun(){
     let r = iuo;
 }
 //Output:- Unexpected identifier 'r'
+
+If JS is interpreted then this error won't shown. If JS is interpreted then wow wow will be print.Bcse
+in interpreted the code is executed by line by line. Jb tk error hit nhi hota tb tk line by like execute hota hai 
+code.The above error called in syntax error so js is a compiler. So JS is HYBRID Language.
 
 Nature of Js:
-JavaScript is a Hybrid(compiled + interpreted) Language.A lot of people thinks that js is interpreted language
+JavaScript is a Hybrid(compiled + interpreted) Language. A lot of people thinks that js is interpreted language
 but it is not true, this is proves in the above example.
 The above piece of code throws error without executing console.log and prints  nothing on console and just say the
 error altogether.
@@ -43,4 +49,4 @@ Actually every Js code executed in 2 phases.
 Phase 1: Compilaton and Scope resolution phase.
 Phase 2: Interpretation and execution phase.
 
-Scopes means "Visibility"
+Scopes means "Visibility".
