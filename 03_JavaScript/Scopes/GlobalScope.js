@@ -30,3 +30,21 @@ fun();
 console.log("The Value of X is: ",x);
 
 // Output:- ReferenceError: x is not defined
+
+var x = 10;
+function fun(){
+    var x = 20;
+    console.log(x); 
+}
+var x = 30;
+fun();
+console.log(x); 
+
+//Output:-
+//20
+//30
+
+var x =30;
+for(var x=1; x<3; x++ )
+    console.log(x);
+console.log("X after Loop is:- ", x);
