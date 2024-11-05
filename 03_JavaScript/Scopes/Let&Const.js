@@ -70,3 +70,11 @@ function name(x) {
 }
 
 name(20);
+
+// Hoisting: Hoisting is not a term normatively defined in the ECMAScript specification. 
+// The spec does define a group of declarations as HoistableDeclaration, but this only includes function, function*, async function, and async function* declarations. 
+// Hoisting is often considered a feature of var declarations as well, although in a different way.  
+
+console.log(Hoist_var);
+var Hoist_var = 20;  //In the above code the variable "Hoist_var" is accessible before initialization.
+//Output:- undefined
