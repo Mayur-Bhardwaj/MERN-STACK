@@ -16,7 +16,7 @@
   fun();
 
   function fun2(){
-    console.log(x2);
+    // console.log(x2);
     let x2 = 20;
     console.log(x2);
   }
@@ -45,3 +45,28 @@ a=12;
 let a;
 // Output:-   Reference error: Can not  access 'a' before its initialization.
 //To avoid TDZ issues, it's important to declare variables before trying to access it
+
+// let zx = 10;
+// let zx = 20;   // SyntaxError: Identifier 'zx' has already been declared
+
+// console.log(zx);   
+// var x = 12;
+// console.log(x);
+// let x= 11;  
+// console.log(x); //SyntaxError: Identifier 'x' has already been declared
+
+var no = 34;
+console.log(no);
+var no = 45;
+console.log(no);
+
+function name(x) {
+  if(x%2==0){
+    let ans = x*2;
+  }else{
+    let ans = x*3;
+  }
+  return ans;
+}
+
+name(20);
