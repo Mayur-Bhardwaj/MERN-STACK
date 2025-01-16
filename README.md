@@ -7,4 +7,6 @@
 6. Node Js
 7. Express JS
 8. SQL
-9. Projects
+9. MongoDB
+10. Prisma
+11. Projects
