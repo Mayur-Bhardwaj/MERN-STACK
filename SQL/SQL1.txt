@@ -1,1 +1,58 @@
+Database Management System
+Database management system is a software which is used to manage the database. For example: MySQL, Oracle, etc are a very popular commercial database which is used in different applications.
+DBMS provides an interface to perform various operations like database creation, storing data in it, updating data, creating a table in the database and a lot more.
+It provides protection and security to the database. In the case of multiple users, it also maintains data consistency.
 
+What is Data?
+Data is a collection of a distinct small unit of information. 
+It can be used in a variety of forms like text, numbers, media, bytes, etc.
+It can be stored in pieces of paper or electronic memory, etc.
+The Word 'Data' is originated from the word 'datum' that means 'single piece of information.' 
+It is plural of the word datum.
+
+What is Data Redundancy?
+It is defined as redundancy means duplicate data and it is also stated that the same parts of data exist in multiple locations in the database. This condition is known as Data Redundancy.
+Redundancy means duplicate data. 
+
+*) Problems with Data Redundancy:- 
+Here, we will discuss a few problems with data redundancy as follows.
+
+Wasted Storage Space.
+More Difficult Database Update.
+It will lead to Data Inconsistency. 
+Retrieval of data is slow and inefficient.
+
+What is Data Inconsistency?
+When the same data exists in different formats in multiple tables. This condition is known as Data Inconsistency. It means that different files contain different information about a particular object or person. This can cause unreliable and meaningless information. Data Redundancy leads to Data Inconsistency. 
+
+*) Problems with Data Inconsistency
+1.) Unreliable Information: Data inconsistency can result in conflicting information across different parts of the database, making it difficult to ascertain the truth.
+2.) Difficulties in Data Retrieval: Retrieving data from inconsistent records can be challenging as you may encounter contradictory data.
+3.) Challenges in Decision Making: Inconsistent data can hinder accurate decision making, especially when businesses rely on updated information.
+
+MySQL
+
+MySQL is a very popular open-source relational database management system (RDBMS).
+MySQL is a relational database management system
+MySQL is open-source
+MySQL is free
+MySQL is ideal for both small and large applications
+MySQL is very fast, reliable, scalable, and easy to use
+MySQL is cross-platform
+MySQL is compliant with the ANSI SQL standard
+MySQL was first released in 1995
+MySQL is developed, distributed, and supported by Oracle Corporation
+MySQL is named after co-founder Ulf Michael "Monty" Widenius's daughter: My
+
+RDBMS:
+
+RDBMS stands for Relational Database Management System.
+RDBMS is a program used to maintain a relational database.
+RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and Microsoft Access.
+RDBMS uses SQL queries to access the data in the database.
+
+What is a Database Table?
+
+A table is a collection of related data entries, and it consists of columns and rows.
+A column holds specific information about every record in the table.
+A record (or row) is each individual entry that exists in a table.
