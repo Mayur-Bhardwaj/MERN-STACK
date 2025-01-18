@@ -56,3 +56,9 @@ What is a Database Table?
 A table is a collection of related data entries, and it consists of columns and rows.
 A column holds specific information about every record in the table.
 A record (or row) is each individual entry that exists in a table.
+
+The SQL WHERE Clause
+
+The WHERE clause is used to filter records. The WHERE Clause is done on rows.
+It is used to extract only those records that fulfill a specified condition.
+By using this clause we done the filteration.
