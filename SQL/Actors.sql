@@ -92,3 +92,50 @@ SELECT NAME, GENDER FROM ACTORS;
 | VICKEY KAUSHAL | MALE   |  
 | ALIYA BHATT    | FEMALE | 
 +----------------+--------+
+
+SELECT * FROM ACTORS WHERE NAME = "VICKEY KAUSHAL";
++----------------+--------+---------+
+| NAME           | GENDER | CHARGES |
++----------------+--------+---------+
+| VICKEY KAUSHAL | MALE   |  500000 |
++----------------+--------+---------+
+
+ INSERT INTO ACTORS VALUES ("AKSHAY RANA", "MALE", 200000);
+
+  SELECT * FROM ACTORS;
++----------------+--------+---------+
+| NAME           | GENDER | CHARGES |
++----------------+--------+---------+
+| AKSHAY KUMAR   | MALE   |  300000 |
+| VARUN DHAWAN   | MALE   |  500000 |
+| VICKEY KAUSHAL | MALE   |  500000 |
+| ALIYA BHATT    | FEMALE |  400000 |
+| AKSHAY RANA    | MALE   |  200000 |
++----------------+--------+---------+
+
+-- IF we want to show the table by using the SUFFIX.
+
+SELECT * FROM ACTORS WHERE NAME LIKE "%KUMAR";
++--------------+--------+---------+
+| NAME         | GENDER | CHARGES |
++--------------+--------+---------+
+| AKSHAY KUMAR | MALE   |  300000 |
++--------------+--------+---------+
+
+--String Matching --> If we want to show that all the data of same string. 
+
+ SELECT * FROM ACTORS WHERE NAME LIKE"%V%";
++----------------+--------+---------+
+| NAME           | GENDER | CHARGES |
++----------------+--------+---------+
+| VARUN DHAWAN   | MALE   |  500000 |
+| VICKEY KAUSHAL | MALE   |  500000 |
++----------------+--------+---------+
+
+SHOW DATABASES LIKE "%schema";
++--------------------+
+| Database (%schema) |
++--------------------+
+| information_schema |
+| performance_schema |
++--------------------+
