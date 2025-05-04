@@ -1,8 +1,11 @@
+import { useState } from "react";
 import TextInputForm from "./TextInputForm";
 
 function TextInputFormContainer(){
 
-    let inputType = "password";
+    // let inputType = "password";  // This is not good practice when the page rerender again then the value will not be updated.
+
+    const [inputType, setInputType]=useState("password"); // We also give the initial value, here we give the initial value password. 
 
     function handleFormSubmit(event){
         event.preventDefault();     //to stop the refresh after click on submit button or jo bhi event aa rha hai
@@ -19,10 +22,10 @@ function TextInputFormContainer(){
      function handleShowHideClick(){
         console.log("Show/Hide Button clicked.");
         if(inputType === "password"){
-            inputType ="text";
+            setInputType("text");
         }
         else{
-            inputType="password";
+            setInputType("password");
     }
     console.log(inputType);
      }

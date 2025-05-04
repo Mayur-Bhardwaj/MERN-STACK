@@ -16,7 +16,8 @@ function TextInputForm({ inputType,handleFormSubmit, handleTextInputChange, hand
             <div>
                 <Button 
                 styleType="warning"
-                text="Show/Hide"
+                // text="Show/Hide"
+                text={inputType === "password" ? "Show" : "Hide"}
                 onClickHandler={handleShowHideClick}/>
             </div>
           <div>
