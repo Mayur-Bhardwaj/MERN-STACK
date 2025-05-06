@@ -6,17 +6,18 @@ function TextInputFormContainer(){
     // let inputType = "password";  // This is not good practice when the page rerender again then the value will not be updated.
 
     const [inputType, setInputType]=useState("password"); // We also give the initial value, here we give the initial value password. 
-
+    const [value, setValue] = useState();
     function handleFormSubmit(event){
         event.preventDefault();     //to stop the refresh after click on submit button or jo bhi event aa rha hai
      //    uska jo bhi default behaviour hai usko execute mt karo to form ka default behaviour hai after click on submit button 
      // the page will be refresh to stop it.
-        console.log("Form Submitted.");
+        console.log("Form Submitted.",value);
      }
  
      function handleTextInputChange(event){
          console.log("Text Input Changed.");
          console.log(event.target.value);
+         setValue(event.target.value);
      }
 
      function handleShowHideClick(){
