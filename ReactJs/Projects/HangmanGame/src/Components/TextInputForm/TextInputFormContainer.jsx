@@ -21,7 +21,10 @@ function TextInputFormContainer(){
         if(value){
             //If we have valid value then we want to go to the play page.
             setTimeout(()=>{
-                navigate("/play");
+                // navigate(`/play/${value}`); //By using useParams
+                // navigate(`/play/teaxt=${value}`); //By uisng useSearchParams 
+                //To hide the data in url we use this way
+                navigate(`/play`, {state: { wordSelected: value }});
             },5000);
             // navigate("/play");
         }
