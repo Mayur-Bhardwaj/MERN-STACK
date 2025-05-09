@@ -11,10 +11,14 @@ function PlayGame(){
     //The url is http://localhost:5173/play/Ram
 
     const { state } = useLocation();
-    console
+
+    const arr = ["hello","world"];
+    
     return(
         <>
             {/*// <h1>Play Game {text} </h1> */}
+            {/*//When we render the list we pass the key */}
+            {arr.map((element, index) => <b key={index}>{element}</b>)}
             <h1> Play Game {state.wordSelected} </h1>
             <Link to="/start" className="text-blue-400">Start Game Link</Link>
         </>
