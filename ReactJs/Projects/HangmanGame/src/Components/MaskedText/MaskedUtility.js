@@ -24,5 +24,5 @@ export function getMaskedString(originalWord, guessedLetter){
         
     });     //['H', '_', 'M', '_', '_', 'E']
 
-    return result.join('');  //"H_M_ _E"    //they will convert the array into normal string
+    return result;  //"H_M_ _E"    //they will convert the array into normal string
 }
