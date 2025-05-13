@@ -8,10 +8,10 @@
 
 * return --> H_M_ _E
 */
-export function getMaskedString(originalWord, guessedLetter){
-    guessedLetter = guessedLetter.map(letter => letter.toUpperCase()); //['h', 'M', 'e'] --> ['H', 'M', 'E']
+export function getMaskedString(originalWord, guessedLetters){
+    guessedLetters = guessedLetters.map(letter => letter.toUpperCase()); //['h', 'M', 'e'] --> ['H', 'M', 'E']
 
-    const guessedLetterSet = new Set(guessedLetter); //Like we are doing traversing with array but using this we can increase the speed of searching.
+    const guessedLetterSet = new Set(guessedLetters); //Like we are doing traversing with array but using this we can increase the speed of searching.
 
 //We also used the array and used the method find to traverse. 
 
